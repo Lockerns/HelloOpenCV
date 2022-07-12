@@ -5,7 +5,7 @@ int main()
 {
 	//读取本地的一张图片并显示出来
 	//imread 后面的文件路径可以根据自己的实际路径修改。
-	Mat img = imread("C:/Users/wzcon/Desktop/q.jpg");
+	Mat img = imread("C:/Users/wzcon/Desktop/q.png");
 	imshow("test", img);
 	//等待用户按键
 	waitKey(0);
